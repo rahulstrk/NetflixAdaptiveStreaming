@@ -20,8 +20,8 @@ COPY apps/worker ./apps/worker
 
 ENV DATABASE_URL=postgresql://postgres:postgres@postgres:5432/adaptive_streaming
 
+RUN npm exec -w @adaptive-streaming/db -- prisma generate
 RUN npm run build -w @adaptive-streaming/shared
-RUN npm exec -w @adaptive-streaming/db prisma generate
 RUN npm run build -w @adaptive-streaming/db
 RUN npm run build -w @adaptive-streaming/worker
 
