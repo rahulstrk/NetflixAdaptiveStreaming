@@ -36,10 +36,6 @@ export default function UploadPage() {
   return (
     <main className="container">
       <div className="card">
-        <div className="notice">
-          UI is ready. Connect <code>uploadVideo()</code> in Lesson 6 after the API is implemented.
-        </div>
-
         <h1>Upload Video</h1>
         <p>Select a video file to upload. Processing runs asynchronously in Temporal workers.</p>
 

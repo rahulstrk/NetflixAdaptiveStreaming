@@ -15,10 +15,6 @@ export default function HomePage() {
   return (
     <main className="container">
       <div className="card">
-        <div className="notice">
-          UI is ready. Connect <code>listVideos()</code> in Lesson 6 after the API is implemented.
-        </div>
-
         <h1>Netflix Adaptive Stream</h1>
         <p>HLS video processing powered by Temporal workers and FFmpeg.</p>
         <p>

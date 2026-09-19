@@ -65,10 +65,6 @@ export default function StreamPage() {
   return (
     <main className="container">
       <div className="card">
-        <div className="notice">
-          UI is ready. Connect <code>getVideoStatus()</code> in Lesson 6 after the API is implemented.
-        </div>
-
         <h1>Stream Preview</h1>
         <p>
           Video ID: <code>{videoId}</code>
